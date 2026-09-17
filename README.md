@@ -1,70 +1,134 @@
-# Getting Started with Create React App
+# FirstGen Digital — Website Design & Development Agency
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img src="./public/logo.png" alt="FirstGen Digital" width="220" />
+</p>
 
-## Available Scripts
+FirstGen Digital is a modern website design and development platform focused on helping students, professionals, freelancers, and businesses build a strong online presence.
 
-In the project directory, you can run:
+The website presents FirstGen Digital's services, pricing, sample projects, delivery process, FAQs, and a multi-step enquiry flow for customers who want to start a website project.
 
-### `npm start`
+## Live Website
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Website:** https://www.firstgendigital.in
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Services
 
-### `npm test`
+- Student Portfolio Websites
+- Personal Websites
+- Business Websites
+- Website Redesign
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Key Features
 
-### `npm run build`
+### Modern Agency Website
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Responsive landing page for desktop, tablet, and mobile
+- Animated hero and interactive visual effects
+- Services and pricing presentation
+- Project showcase section
+- Development process timeline
+- FAQ section
+- Contact and consultation calls to action
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Dedicated Service Pages
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Each major service has its own landing experience with service-specific information, benefits, features, process details, and calls to action:
 
-### `npm run eject`
+- Student Portfolio
+- Personal Website
+- Business Website
+- Website Redesign
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Sample Project Previews
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The website includes sample project pages that allow visitors to explore example designs for:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Student portfolios
+- Personal websites
+- Business websites
+- Website redesigns
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Booking & Enquiry Flow
 
-## Learn More
+- Two-step project enquiry form
+- Name, email, and WhatsApp number validation
+- International phone number support
+- Website type selection
+- Budget selection
+- Project requirement details
+- Form submissions through Web3Forms
+- Lead storage using Supabase
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Location-Aware Experience
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+A Vercel serverless API reads Vercel location headers and provides country information to the frontend. This is used to improve the phone-number input experience for visitors from different regions.
 
-### Code Splitting
+### Additional Pages
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Privacy Policy
+- Terms & Conditions
+- Refund Policy
+- Custom 404 page
 
-### Analyzing the Bundle Size
+## Tech Stack
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Frontend
 
-### Making a Progressive Web App
+- React 19
+- JavaScript
+- Tailwind CSS
+- React Router
+- Framer Motion
+- GSAP
+- AOS
+- Lucide React
+- React Icons
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Forms & Data
 
-### Advanced Configuration
+- Supabase
+- Web3Forms
+- React International Phone
+- Google libphonenumber
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Visual Effects
+
+- OGL
+- Framer Motion animations
+- Custom Galaxy, Light Rays, Splash Cursor, Border Glow, and Glare effects
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Vercel
+- Vercel Serverless Function for location detection
 
-### `npm run build` fails to minify
+## Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+first-gen/
+├── api/
+│   └── location.js
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── header/
+│   │   ├── footer/
+│   │   ├── images/
+│   │   ├── pages/
+│   │   │   ├── Home/
+│   │   │   ├── LandingPages/
+│   │   │   ├── SampleProjects/
+│   │   │   ├── Forms/
+│   │   │   ├── SuccessPages/
+│   │   │   └── LeagalPages/
+│   │   └── utils/
+│   │       ├── ui/
+│   │       ├── css/
+│   │       ├── json/
+│   │       └── supabase.js
+│   ├── App.js
+│   ├── index.js
+│   └── index.css
+├── tailwind.config.js
+├── vercel.json
+└── package.json
