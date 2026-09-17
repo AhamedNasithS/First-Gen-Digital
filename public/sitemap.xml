@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+      http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <url>
+    <loc>https://firstgendigital.in/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://firstgendigital.in/student-protfolio</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://firstgendigital.in/personal-protfolio</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://firstgendigital.in/business-protfolio</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://firstgendigital.in/redesign-protfolio</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://firstgendigital.in/privacy-policy</loc>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://firstgendigital.in/terms-and-conditions</loc>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://firstgendigital.in/refund-policy</loc>
+    <priority>0.4</priority>
+  </url>
+
+</urlset>
