@@ -10,7 +10,7 @@ The website presents FirstGen Digital's services, pricing, sample projects, deli
 
 ## Live Website
 
-**Website:** https://www.firstgendigital.in
+**Website:** https://first-gen-digital.vercel.app/
 
 ## Services
 
